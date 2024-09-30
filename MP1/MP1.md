@@ -102,8 +102,53 @@ function call above is sufficient enough.
 
 
 
+#Makefile
+以執行halt為例，我們會在test目錄下輸入
+make clean
+make halt
+../build.linux/nachos halt
 
 
+其中 make clean 會去 Makefile中 找
+clean:
+	$(RM) -f *.o *.ii
+	$(RM) -f *.coff
+其中$(RM)是make 預設的變數，代表rm -f 即強制刪除，依照上面2行，會刪掉 .o, .ii, .coff 檔
 
+make halt 會去找
 
+halt: halt.o start.o
+	$(LD) $(LDFLAGS) start.o halt.o -o halt.coff
+	$(COFF2NOFF) halt.coff halt
 
+可發現halt需要halt.o 和 start.o，所以make又會去找
+
+halt.o: halt.c
+	$(CC) $(CFLAGS) -c halt.c
+
+start.o: start.S ../userprog/syscall.h
+	$(CC) $(CFLAGS) $(ASFLAGS) -c start.S
+
+halt.o 需要 halt.c，這時，halt.c 已經存在test目錄底下，因此可以執行下面的指令
+$(CC) $(CFLAGS) -c halt.c
+
+$(CC)是指gcc 
+至於$(CFLAGS)，可從makefile上找到
+CFLAGS = -g -G 0 -c $(INCDIR) -B/usr/bin/local/nachos/lib/gcc-lib/decstation-ultrix/2.95.2/ -B/usr/bin/local/nachos/decstation-ultrix/bin/
+推測是gccc 後面接的參數，其他就不太清楚，可能是編成某種型態，讓之後的nachos可以執行
+總之，halt.o 就編譯好了
+
+start.o 需要start.S 和 ../userprog/syscall.h，可知目錄下都有這些檔案，
+所以可以接著執行
+$(CC) $(CFLAGS) $(ASFLAGS) -c start.S
+
+其中start.S使用組合語言寫的
+這邊值得注意的是，看起來像是gcc 也可以來編譯組合語言
+總之也編譯好得到start.o
+
+因此最一開始的
+halt: halt.o start.o
+	$(LD) $(LDFLAGS) start.o halt.o -o halt.coff
+	$(COFF2NOFF) halt.coff halt
+就可以接著執行，經過中間.coff(不清楚是什麼)
+最後就得到 halt 這個執行檔，然後可以被nachos執行
