@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\code\add.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\addrspace.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\alarm.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\bitmap.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\console.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\consoleIO_test1.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\consoleIO_test2.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\createFile.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\debug.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\directory.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\disk.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\exception.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\filehdr.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\fileIO_test1.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\fileIO_test2.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\filesys.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\halt.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\hash.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\hw3t1.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\hw3t2.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\hw3t3.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\hw4t1.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\hw4t2.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\interrupt.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\kernel.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\libtest.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\list.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\LotOfAdd.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\machine.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\main.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\matmult.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\mipssim.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\network.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\openfile.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\pbitmap.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\post.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\scheduler.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\segments.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\shell.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\sort.c">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\stats.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\synch.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\synchconsole.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\synchdisk.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\synchlist.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\sysdep.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\thread.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\timer.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\code\translate.cc">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\code\addrspace.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\alarm.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\bitmap.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\callback.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\console.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\copyright.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\debug.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\directory.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\disk.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\errno.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\filehdr.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\filesys.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\hash.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\interrupt.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\kernel.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\ksyscall.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\libtest.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\list.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\machine.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\main.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\mipssim.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\network.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\noff.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\openfile.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\pbitmap.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\post.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\scheduler.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\stats.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\switch.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\synch.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\synchconsole.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\synchdisk.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\synchlist.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\syscall.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\sysdep.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\thread.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\timer.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\translate.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\utility.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
